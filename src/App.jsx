@@ -4,6 +4,7 @@ import Navbar from './Navbar'
 import Docs from './Docs'
 import CodeTwo from './CodeTwo'
 import CodeThree from './CodeThree'
+import NewsApp from './NewsApp'
 
 function App() {
 
@@ -13,6 +14,7 @@ function App() {
         <Navbar />
         <Routes>
           <Route path='/' element={<CodeTwo />} />
+          <Route path='/news' element={<NewsApp />} />
           <Route path='/docs' element={<Docs />} />
 
           <Route path='/service' element={<CodeOne />}>
