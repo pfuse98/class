@@ -5,6 +5,7 @@ import Docs from './Docs'
 import CodeTwo from './CodeTwo'
 import CodeThree from './CodeThree'
 import NewsApp from './NewsApp'
+import WeatherApp from './WeatherApp'
 
 function App() {
 
@@ -15,6 +16,7 @@ function App() {
         <Routes>
           <Route path='/' element={<CodeTwo />} />
           <Route path='/news' element={<NewsApp />} />
+          <Route path='/weather' element={<WeatherApp />} />
           <Route path='/docs' element={<Docs />} />
 
           <Route path='/service' element={<CodeOne />}>
