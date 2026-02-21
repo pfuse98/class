@@ -16,6 +16,9 @@ const Navbar = () => {
               <Link to="/weather">Weather</Link>
             </li>
             <li>
+              <Link to="/text-converter">Text converter</Link>
+            </li>
+            <li>
               <Link to="/service">Service</Link>
             </li>
             <li>
